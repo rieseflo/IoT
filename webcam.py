@@ -7,7 +7,7 @@ from pymongo import MongoClient
 import datetime
 
 # MongoDB Setup
-client = pymongo.MongoClient("mongodb+srv://Admin:Domusa96lewe-@cluster0.xf9oyhe.mongodb.net/test")
+client = pymongo.MongoClient("mongodb+srv://username:password@cluster0.xf9oyhe.mongodb.net/test")
 db = client["IoT"]
 collection = db["Door status"]
 
